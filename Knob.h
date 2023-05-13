@@ -11,5 +11,5 @@ class Knob {
   private:
     Encoder encoder;
     long lastPosition;
-    static const int SENSITIVITY = 3;
+    static const int SENSITIVITY = 2;
 };
