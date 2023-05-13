@@ -17,6 +17,7 @@ void Display::initialize() {
   display.setTextSize(3);
 
   display.clearDisplay();
+  display.setRotation(2);
   display.display();
 
   isInitialized = true;
