@@ -2,8 +2,10 @@
 
 Based on https://www.thingiverse.com/thing:5250153
 
-The part that lifts and lowers the tea bag needs to be printed from the files at [](3d_models/).
-In addition, the electronics are contained in a box made with a laser cutter and [](teabot_box.svg). There's a separate compartment for the 9V block battery to make the inside a bit cleaner and to make it easier to change the battery.
+The part that lifts and lowers the tea bag needs to be printed from the files at [3d_models/](3d_models/).
+
+In addition there is a box to contain the electronics made with a laser cutter and [teabot_box.svg](teabot_box.svg). There's a separate compartment for the 9V block battery to make the inside a bit cleaner and to make it easier to change the battery.
+
 The code can be opened, compiled and uploaded using the [Arduino IDE](https://www.arduino.cc/en/software).
 
 Used parts:
