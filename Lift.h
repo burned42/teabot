@@ -17,5 +17,5 @@ class Lift {
     void setPosition(int position);
     static const int MIN_POSITION = 40;
     static const int MAX_POSITION = 100;
-    static const int DELAY = 25;
+    static const int DELAY = 50;
 };
