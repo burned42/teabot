@@ -11,5 +11,8 @@ class Knob {
   private:
     Encoder encoder;
     long lastPosition;
-    static const int SENSITIVITY = 2;
+    static const int SENSITIVITY = 1;
+
+    unsigned long lastDebounceTime = 0;
+    const int debounceDelay = 100;
 };
