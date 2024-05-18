@@ -30,10 +30,6 @@ void Lift::setPosition(int position) {
   position = min(position, MAX_POSITION);
   position = max(position, MIN_POSITION);
 
-  // servo.write(position);
-  // delay(2000);
-  // return;
-
   do {
     if (currentPosition < position) {
       currentPosition++;
